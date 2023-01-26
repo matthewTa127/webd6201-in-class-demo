@@ -27,6 +27,8 @@
     // let secondString = `${firstString} main paragraph that we added thought javascript`;
     // mainParagraph.textContent = secondString;
     // mainContent.before(mainParagraph);
+
+    let documentBody = document.body;
   }
 
   function Start() {
