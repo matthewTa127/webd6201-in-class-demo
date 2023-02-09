@@ -1,27 +1,20 @@
-let welcome = document.getElementById("welcome");
-let display = document.getElementById("displayEvent");
+var welcomeLabel = document.getElementById("welcome");
+var displayEvent = document.getElementById("displayEvent");
 
-let userDisplay = document.getElementById("userDisplay");
-let passDisplay = document.getElementById("passDisplay");
+var userDisplay = document.getElementById("userDisplay");
+var passDisplay = document.getElementById("passDisplay");
 
-// welcome.addEventListener("click", function () {
-//   console.log("Event: Click");
-//   display.innerText = "Event: Click";
+// welcomeLabel.addEventListener("dblclick", function () {
+//     console.log("Event: dblclick");
+//     displayEvent.textContent = "Event: dblclick";
 // });
-
-// welcome.addEventListener("mouseover", function () {
-//   console.log("Event: mouseover");
-//   display.innerText = "Event: mouseover";
+// welcomeLabel.addEventListener("mouseover", function () {
+//     console.log("Event: mouseover");
+//     displayEvent.textContent = "Event: mouseover";
 // });
-
-// welcome.addEventListener("mouseout", function () {
-//   console.log("Event: mouseout");
-//   display.innerText = "Event: mouseout";
-// });
-
-// welcome.addEventListener("dblclick", function () {
-//   console.log("Event: dblclick");
-//   display.innerText = "Event: dblclick";
+// welcomeLabel.addEventListener("mouseout", function () {
+//     console.log("Event: mouseout");
+//     displayEvent.textContent = "Event: mouseout";
 // });
 
 function validateForm() {
